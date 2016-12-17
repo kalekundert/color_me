@@ -1,10 +1,7 @@
 #!/usr/bin/env python3
 # encoding: utf-8
 
-try:
-    from setuptools import setup
-except ImportError:
-    from distutils.core import setup
+from setuptools import setup
 
 import re
 with open('color_me/__init__.py') as file:
